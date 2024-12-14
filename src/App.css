@@ -1,0 +1,42 @@
+/* App.css */
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+    padding: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 1500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .card-header{
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .file-upload-section,
+  .file-list-section {
+    margin-bottom: 20px;
+  }
+  
+  .file-upload-section:last-child {
+    margin-bottom: 0;
+  }
+  

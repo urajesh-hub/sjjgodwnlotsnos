@@ -1,0 +1,38 @@
+.table {
+    width: 100%; /* Make the table take full width */
+    
+  }
+  
+  .table th, .table td {
+   font-size:small;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .table th {
+    background-color: #343a40; /* Dark background for header */
+    color: white; /* White text for header */
+  }
+  
+  .table td {
+    border: 1px solid #dee2e6; /* Border for table cells */
+  }
+  
+  .table .serial-no {
+    width: 1%; /* Set width for Serial No column */
+    
+  }
+  
+  .table .godown-lot {
+    width: 20%; /* Set width for GODOWN LOT NO column */
+    text-align: center;
+  }
+  
+  .table .get-link {
+    width: 7%; /* Set width for Get Link column */
+    text-align: center;
+  }
+  
+  .table .generated-url {
+    width: 70%; /* Set width for Generated URL column */
+    text-align: center;
+  }
