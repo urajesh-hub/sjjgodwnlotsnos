@@ -5,6 +5,8 @@ import FileList from './FileList';
 
 import './App.css'; // Import custom styles
 import QrCode from './QrCode';
+import QrCodeWithLogo from './QrCodeWithLogo';
+
 
 
 const App = () => {
@@ -13,13 +15,13 @@ const App = () => {
       <div className="app-container">
         <div className="card">
           <div className="card-header bg-primary text-white">
-            GODOWN BALES LOT DETAILS
+          QR CODE GENERATOR
           </div>
           <div className="card-body">
 
             
             {/* Navigation Links */}
-            <nav className="mb-4 fw-bold">
+            {/* <nav className="mb-4 fw-bold">
               <ul className="nav nav-pills">
                 <li className="nav-item ">
                   <Link className="nav-link" to="/upload">
@@ -37,19 +39,17 @@ const App = () => {
                   </Link>
                 </li>
               </ul>
-            </nav>
+            </nav> */}
             {/* Routes */}
             <Routes>
-              <Route path="/upload" element={<FileUpload />} />
-              <Route path="/list" element={<FileList />} />
-              <Route path="/QrCode" element={<QrCode />} />
+              {/* <Route path="/upload" element={<FileUpload />} /> */}
+              {/* <Route path="/list" element={<FileList />} /> */}
+              {/* <Route path="/QrCode" element={<QrCode />} /> */}
+              <Route path="/" element={<QrCodeWithLogo />} />
              
              
              
-              <Route
-                path="/"
-                element={<div>Welcome to Godown Bales Lot Details App!</div>}
-              />
+              
             </Routes>
           </div>
         </div>
